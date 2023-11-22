@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dojo Weather</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- navbar -->
+        <div class="nav">
+            <div class="flex-container">
+                <h1 class="nav-title">Dojo Weather</h1>
+                <ul class="nav-links">
+                    <li><a class="ciudad" href="#">Burbank</a></li>
+                    <li><a class="ciudad" href="#">Chicago</a></li>
+                    <li><a class="ciudad" href="#">Dallas</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="flex-container main">
+
+            <div class="encabezado">
+                <h2>San Jose</h2>
+                <div class="flex-center">
+                    <p>Show temperature in </p>
+                    <select class="temperatura-select" name="temperatura" id="temperatura">
+                        <option value="celcius" selected>°C</option>
+                        <option value="farenheit">°F</option>
+                        <option value="kelvin">°K</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="feed">
+                <div class="card main">
+                    <h3>Today</h3>
+                    <img src="assets/some_rain.png" alt="rain" class="weather-img">
+                    <p>some rain</p>
+                    <div class="max_min_temperatura">
+                        <span class="max">24°</span>
+                        <span class="min">18°</span>
+                    </div>
+                </div>
+                <div class="card main">
+                    <h3>Tomorrow</h3>
+                    <img src="assets/some_sun.png" alt="rain" class="weather-img">
+                    <p>some sun</p>
+                    <div class="max_min_temperatura">
+                        <span class="max">27°</span>
+                        <span class="min">19°</span>
+                    </div>
+                </div>
+                <div class="card main">
+                    <h3>Friday</h3>
+                    <img src="assets/some_clouds.png" alt="rain" class="weather-img">
+                    <p>some clouds</p>
+                    <div class="max_min_temperatura">
+                        <span class="max">21°</span>
+                        <span class="min">16°</span>
+                    </div>
+                </div>
+                <div class="card main">
+                    <h3>Saturday</h3>
+                    <img src="assets/some_sun.png" alt="rain" class="weather-img">
+                    <p>some sun</p>
+                    <div class="max_min_temperatura">
+                        <span class="max">26°</span>
+                        <span class="min">21°</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cookie flex-center">
+                <img src="assets/cookie.png" alt="cookie">
+                <div class="info">                    
+                    <h4>Cookie time</h4>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+                </div>
+                <button class="blue_btn">I Accept</button>
+            </div>  
+        </div>
+
+        <script src="javascript/script.js"></script>
+    </body>
+</html>
